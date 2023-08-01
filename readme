@@ -1,0 +1,15 @@
+This fight was about Shell scripts, CHMOD and SSH.
+
+
+Generate an SSH key pair: ssh-keygen -t [key_type]
+
+Generate a public SSH key from a private key: ssh-keygen -f [private_key] -y > [private_key.pub]
+
+Transmit a public SSH key to a remote server: ssh-copy-id [username]@[server_IP_address]
+
+Connect to a remote server: ssh [username]@[server_IP_address]
+
+Copy a file from a remote server using SCP: scp [username]@[server_IP_address]:[absolute_path_of_the_file_to_copy] [destination_location]
+
+
+https://git.thearenaproject.co

@@ -1,0 +1,1 @@
+mkdir a b && cd ./a && touch aurel ilios kevin && chmod 400 aurel ilios kevin && cd ../b && touch hard-ilios && chmod 400 hard-ilios && ln -s a/aurel soft-aurel
